@@ -1,0 +1,218 @@
+{
+  "students": [
+    {
+      "regNumber": "CS001/2024",
+      "fullName": "Alice John",
+      "email": "alice@example.com",
+      "phone": "",
+      "program": "Computer Science",
+      "status": "Active",
+      "year": "1",
+      "semester": "1",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "regNumber": "IT002/2024",
+      "fullName": "Bob Smith",
+      "email": "bob@example.com",
+      "phone": "555-0102",
+      "program": "Information Technology",
+      "admissionYear": "2024",
+      "year": "1",
+      "semester": "1",
+      "status": "Active",
+      "joinDate": "2024-01-16"
+    },
+    {
+      "id": "3",
+      "regNumber": "E100/P2125/22",
+      "fullName": "Abdiaziz Noor Biriye",
+      "email": "abdiaziznoor20@gmail.com",
+      "phone": "0742658378",
+      "program": "Education",
+      "admissionYear": "2024",
+      "year": "3",
+      "semester": "2",
+      "status": "Active",
+      "joinDate": "2026-02-08"
+    },
+    {
+      "id": "4",
+      "regNumber": "S105/S10/23",
+      "fullName": "Mohamednoor Dagane",
+      "email": "mohamednoordagane2195@gmail.com",
+      "phone": "0765432456",
+      "program": "Nursing",
+      "admissionYear": "2026",
+      "year": "1",
+      "semester": "1",
+      "status": "Active",
+      "joinDate": "2026-02-09"
+    },
+    {
+      "id": "5",
+      "regNumber": "S11O/P2348/23",
+      "fullName": "HALIMA MOHAMED",
+      "email": "halima1223@gmail.com",
+      "phone": "+254742658378",
+      "program": "Computer Science",
+      "admissionYear": "2026",
+      "year": "1",
+      "semester": "1",
+      "status": "Active",
+      "joinDate": "2026-02-09"
+    }
+  ],
+  "courses": [
+    {
+      "code": "CS101",
+      "name": "Introduction to Programming",
+      "program": "Computer Science",
+      "credits": 3,
+      "year": "1",
+      "semester": "1",
+      "status": "Active",
+      "id": "c1"
+    },
+    {
+      "id": "c2",
+      "code": "CS102",
+      "name": "Database Systems",
+      "credits": 4,
+      "year": "1",
+      "semester": "1",
+      "program": "Computer Science",
+      "status": "Active"
+    },
+    {
+      "id": "c3",
+      "code": "IT101",
+      "name": "Web Development",
+      "credits": 3,
+      "year": "1",
+      "semester": "1",
+      "program": "Information Technology",
+      "status": "Active"
+    },
+    {
+      "id": "c4",
+      "code": "IT102",
+      "name": "Networking Basics",
+      "credits": 3,
+      "year": "1",
+      "semester": "1",
+      "program": "Information Technology",
+      "status": "Active"
+    },
+    {
+      "id": "c1770637005724",
+      "code": "DIT001",
+      "name": "Introduction to computer",
+      "program": "Information Technology",
+      "credits": 4,
+      "year": "2",
+      "semester": "2",
+      "status": "Active"
+    }
+  ],
+  "marks": [
+    {
+      "id": "m1",
+      "studentId": "1",
+      "courseId": "c1",
+      "cat1": 12,
+      "cat2": 14,
+      "exam": 60,
+      "total": 86,
+      "grade": "A",
+      "status": "Pass"
+    },
+    {
+      "id": "m2",
+      "studentId": "1",
+      "courseId": "c2",
+      "cat1": 10,
+      "cat2": 12,
+      "exam": 50,
+      "total": 72,
+      "grade": "B",
+      "status": "Pass"
+    },
+    {
+      "id": "m3",
+      "studentId": "2",
+      "courseId": "c3",
+      "cat1": 13,
+      "cat2": 13,
+      "exam": 55,
+      "total": 81,
+      "grade": "A",
+      "status": "Pass"
+    },
+    {
+      "id": "m1770575196788",
+      "studentId": "1",
+      "courseId": "c3",
+      "cat1": 14,
+      "cat2": 6,
+      "exam": 46,
+      "total": 66,
+      "grade": "B",
+      "status": "Pass"
+    },
+    {
+      "id": "m1770575896225",
+      "studentId": "2",
+      "courseId": "c1",
+      "cat1": 15,
+      "cat2": 10,
+      "exam": 36,
+      "total": 61,
+      "grade": "B",
+      "status": "Good"
+    },
+    {
+      "id": "m1770637073196",
+      "studentId": "4",
+      "courseId": "c1770637005724",
+      "cat1": 11,
+      "cat2": 14,
+      "exam": 45,
+      "total": 70,
+      "grade": "A",
+      "status": "Excellent"
+    }
+  ],
+  "semesters": [
+    {
+      "id": "s1",
+      "name": "Semester 1",
+      "year": "1"
+    },
+    {
+      "id": "s2",
+      "name": "Semester 2",
+      "year": "1"
+    },
+    {
+      "id": "s3",
+      "name": "Semester 1",
+      "year": "2"
+    },
+    {
+      "id": "s4",
+      "name": "Semester 2",
+      "year": "2"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@university.ac.ke",
+      "password": "admin",
+      "role": "Admin",
+      "name": "Admin User"
+    }
+  ]
+}
