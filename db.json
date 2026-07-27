@@ -1,6 +1,7 @@
 {
   "students": [
     {
+      "id": "1",
       "regNumber": "CS001/2024",
       "fullName": "Alice John",
       "email": "alice@example.com",
@@ -8,60 +9,46 @@
       "program": "Computer Science",
       "status": "Active",
       "year": "1",
-      "semester": "1",
-      "id": "1"
-    },
-    {
-      "id": "2",
-      "regNumber": "IT002/2024",
-      "fullName": "Bob Smith",
-      "email": "bob@example.com",
-      "phone": "555-0102",
-      "program": "Information Technology",
-      "admissionYear": "2024",
-      "year": "1",
-      "semester": "1",
-      "status": "Active",
-      "joinDate": "2024-01-16"
+      "semester": "1"
     },
     {
       "id": "3",
-      "regNumber": "E100/P2125/22",
-      "fullName": "Abdiaziz Noor Biriye",
-      "email": "abdiaziznoor20@gmail.com",
-      "phone": "0742658378",
+      "regNumber": "S11O/P2348/23",
+      "fullName": "Mohamednoor Dagane",
+      "email": "mohamednoordagane2195@gmail.com",
+      "phone": "0722883733",
       "program": "Education",
-      "admissionYear": "2024",
-      "year": "3",
-      "semester": "2",
+      "admissionYear": "2026",
+      "year": "1",
+      "semester": "1",
       "status": "Active",
-      "joinDate": "2026-02-08"
+      "joinDate": "2026-07-26"
     },
     {
       "id": "4",
-      "regNumber": "S105/S10/23",
-      "fullName": "Mohamednoor Dagane",
-      "email": "mohamednoordagane2195@gmail.com",
-      "phone": "0765432456",
+      "regNumber": "H100/P2220/26",
+      "fullName": "Asha noor adan",
+      "email": "ashinoor070@gmail.com",
+      "phone": "076543333",
       "program": "Nursing",
       "admissionYear": "2026",
       "year": "1",
       "semester": "1",
       "status": "Active",
-      "joinDate": "2026-02-09"
+      "joinDate": "2026-07-27"
     },
     {
       "id": "5",
-      "regNumber": "S11O/P2348/23",
-      "fullName": "HALIMA MOHAMED",
-      "email": "halima1223@gmail.com",
-      "phone": "+254742658378",
-      "program": "Computer Science",
+      "regNumber": "E100/23444/23",
+      "fullName": "Shukir abdi",
+      "email": "shukirabdi@gmail.com",
+      "phone": "0723322245",
+      "program": "Education",
       "admissionYear": "2026",
-      "year": "1",
-      "semester": "1",
+      "year": "3",
+      "semester": "2",
       "status": "Active",
-      "joinDate": "2026-02-09"
+      "joinDate": "2026-07-27"
     }
   ],
   "courses": [
@@ -140,17 +127,6 @@
       "status": "Pass"
     },
     {
-      "id": "m3",
-      "studentId": "2",
-      "courseId": "c3",
-      "cat1": 13,
-      "cat2": 13,
-      "exam": 55,
-      "total": 81,
-      "grade": "A",
-      "status": "Pass"
-    },
-    {
       "id": "m1770575196788",
       "studentId": "1",
       "courseId": "c3",
@@ -162,19 +138,8 @@
       "status": "Pass"
     },
     {
-      "id": "m1770575896225",
-      "studentId": "2",
-      "courseId": "c1",
-      "cat1": 15,
-      "cat2": 10,
-      "exam": 36,
-      "total": 61,
-      "grade": "B",
-      "status": "Good"
-    },
-    {
       "id": "m1770637073196",
-      "studentId": "4",
+      "studentId": "1",
       "courseId": "c1770637005724",
       "cat1": 11,
       "cat2": 14,
@@ -214,5 +179,6 @@
       "role": "Admin",
       "name": "Admin User"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
